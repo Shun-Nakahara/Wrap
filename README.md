@@ -1,6 +1,6 @@
 # Wrap
 
-![Travis](https://img.shields.io/travis/JohnSundell/Wrap.svg)
+![Travis](https://img.shields.io/travis/JohnSundell/Wrap/master.svg)
 ![CocoaPods](https://img.shields.io/cocoapods/v/Wrap.svg)
 [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
@@ -197,6 +197,10 @@ Add the line `github "johnsundell/wrap"` to your `Cartfile`
 **Manual:**
 
 Clone the repo and drag the file `Wrap.swift` into your Xcode project.
+
+**Swift Package Manager:**
+
+Add the line `.Package(url: "https://github.com/JohnSundell/Wrap.git", majorVersion: 1)` to your `Package.swift` file.
 
 ### Hope you enjoy wrapping your objects!
 
